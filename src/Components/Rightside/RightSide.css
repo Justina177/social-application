@@ -1,0 +1,23 @@
+.rightSide {
+    flex: 1;
+}
+
+.rightContainer {
+    width: 20pc;
+    height: 40vh;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.adsimg {
+    width: 130px;
+
+}
+
+.adsContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding: 10px;
+}
