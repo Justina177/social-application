@@ -1,6 +1,9 @@
 .ProfileContainer{
     background-color: rgb(235, 238, 242);
+}
 
+.profilebar {
+    display: flex;
 }
 
 .subProfileContainer{
