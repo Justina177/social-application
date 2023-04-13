@@ -140,7 +140,7 @@ export default function ProfileRightBar() {
         <div style={{marginTop:"-10px"}}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
             <div style={{ display: 'flex', alignItems: "center" }}>
-              <img src={`${image1}`} className="Profileimage" alt="" />
+              <img src={`${image7}`} className="Profileimage" alt="" />
               <div>
                 <p style={{ marginLeft: "10px" , textAlign:'start' }}>Nathan Kim</p>
                 <p style={{ marginLeft: "10px" , textAlign:'start' , marginTop:"-16px" , fontSize:"11px" , color:"#aaa" }}>Followed by suman yo</p>
