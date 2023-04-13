@@ -14,36 +14,36 @@ export default function ProfileRightBar() {
   return (
     <div className='Profilerightbar'>
       <div className='profilerightcontainer'>
-        <h3>Friend request</h3>
+        <h3>Friend Request</h3>
         <div>
           <div>
              <div style={{display:'flex' , alignItems:"center" , marginLeft:10 , cursor:"pointer"}}>
               <img src={`${image1}`} className="Friendsimage" alt="" />
-              <p style={{textAlign:"start"  , marginLeft:"10px"}}>Rin jonsion want to make you friends</p>
+              <p style={{textAlign:"start"  , marginLeft:"10px"}}>John Adams want to make you friends</p>
             </div>
             <div style={{display:"flex" , justifyContent:'space-around'}}>
-              <button style={{paddingLeft:"30px" , paddingRight:"30px" , paddingTop:5 , paddingBottom:5 , border:"none" , backgroundColor:"black", color:"white", borderRadius:"10px"}}>Accept</button>
-              <button style={{paddingLeft:"30px" , paddingRight:"30px" , paddingTop:5 , paddingBottom:5 , border:"none" , backgroundColor:"black", color:"white", borderRadius:"10px"}}>Deny</button>
+              <button style={{paddingLeft:"30px" , paddingRight:"30px" , paddingTop:5 , paddingBottom:5 , border:"none" , backgroundColor:"#50aa13", color:"white", borderRadius:"10px", mouseHover:'green'}}>Accept</button>
+              <button style={{paddingLeft:"30px" , paddingRight:"30px" , paddingTop:5 , paddingBottom:5 , border:"none" , backgroundColor:"red", color:"white", borderRadius:"10px"}}>Deny</button>
             </div>
           </div>
           <div>
              <div style={{display:'flex' , alignItems:"center" , marginLeft:10 , cursor:"pointer"}}>
               <img src={`${image2}`} className="Friendsimage" alt="" />
-              <p style={{textAlign:"start"  , marginLeft:"10px"}}>Rin jonsion want to make you friends</p>
+              <p style={{textAlign:"start"  , marginLeft:"10px"}}>Eddy Johnson want to make you friends</p>
             </div>
             <div style={{display:"flex" , justifyContent:'space-around'}}>
-              <button style={{paddingLeft:"30px" , paddingRight:"30px" , paddingTop:5 , paddingBottom:5 , border:"none" , backgroundColor:"black", color:"white", borderRadius:"10px"}}>Accept</button>
-              <button style={{paddingLeft:"30px" , paddingRight:"30px" , paddingTop:5 , paddingBottom:5 , border:"none" , backgroundColor:"black", color:"white", borderRadius:"10px"}}>Deny</button>
+              <button style={{paddingLeft:"30px" , paddingRight:"30px" , paddingTop:5 , paddingBottom:5 , border:"none" , backgroundColor:"#50aa13", color:"white", borderRadius:"10px"}}>Accept</button>
+              <button style={{paddingLeft:"30px" , paddingRight:"30px" , paddingTop:5 , paddingBottom:5 , border:"none" , backgroundColor:"red", color:"white", borderRadius:"10px"}}>Deny</button>
             </div>
           </div>
           <div>
              <div style={{display:'flex' , alignItems:"center" , marginLeft:10 , cursor:"pointer"}}>
               <img src={`${image5}`} className="Friendsimage" alt="" />
-              <p style={{textAlign:"start"  , marginLeft:"10px"}}>Rin jonsion want to make you friends</p>
+              <p style={{textAlign:"start"  , marginLeft:"10px"}}>Robbin Clark want to make you friends</p>
             </div>
             <div style={{display:"flex" , justifyContent:'space-around'}}>
-              <button style={{paddingLeft:"30px" , paddingRight:"30px" , paddingTop:5 , paddingBottom:5 , border:"none" , backgroundColor:"black", color:"white", borderRadius:"10px"}}>Accept</button>
-              <button style={{paddingLeft:"30px" , paddingRight:"30px" , paddingTop:5 , paddingBottom:5 , border:"none" , backgroundColor:"black", color:"white", borderRadius:"10px"}}>Deny</button>
+              <button style={{paddingLeft:"30px" , paddingRight:"30px" , paddingTop:5 , paddingBottom:5 , border:"none" , backgroundColor:"#50aa13", color:"white", borderRadius:"10px"}}>Accept</button>
+              <button style={{paddingLeft:"30px" , paddingRight:"30px" , paddingTop:5 , paddingBottom:5 , border:"none" , backgroundColor:"red", color:"white", borderRadius:"10px"}}>Deny</button>
             </div>
           </div>
           
@@ -58,7 +58,7 @@ export default function ProfileRightBar() {
             <div style={{ display: 'flex', alignItems: "center" }}>
               <img src={`${image2}`} className="Profileimage" alt="" />
               <div>
-                <p style={{ marginLeft: "10px" , textAlign:'start' }}>Suman</p>
+                <p style={{ marginLeft: "10px" , textAlign:'start' }}>Angela</p>
                 <p style={{ marginLeft: "10px" , textAlign:'start' , marginTop:"-16px" , fontSize:"11px" , color:"#aaa" }}>Suggested for you</p>
               </div>
             </div>
@@ -72,7 +72,7 @@ export default function ProfileRightBar() {
             <div style={{ display: 'flex', alignItems: "center" }}>
               <img src={`${image5}`} className="Profileimage" alt="" />
               <div>
-                <p style={{ marginLeft: "10px" , textAlign:'start' }}>Dan jok</p>
+                <p style={{ marginLeft: "10px" , textAlign:'start' }}>Jean Ad</p>
                 <p style={{ marginLeft: "10px" , textAlign:'start' , marginTop:"-16px" , fontSize:"11px" , color:"#aaa" }}>Followed by suman yo</p>
               </div>
             </div>
@@ -86,7 +86,7 @@ export default function ProfileRightBar() {
             <div style={{ display: 'flex', alignItems: "center" }}>
               <img src={`${image4}`} className="Profileimage" alt="" />
               <div>
-                <p style={{ marginLeft: "10px" , textAlign:'start' }}>Jemes Op</p>
+                <p style={{ marginLeft: "10px" , textAlign:'start' }}>Janet</p>
                 <p style={{ marginLeft: "10px" , textAlign:'start' , marginTop:"-16px" , fontSize:"11px" , color:"#aaa" }}>Followed by suman yo</p>
               </div>
             </div>
@@ -100,7 +100,7 @@ export default function ProfileRightBar() {
             <div style={{ display: 'flex', alignItems: "center" }}>
               <img src={`${image6}`} className="Profileimage" alt="" />
               <div>
-                <p style={{ marginLeft: "10px" , textAlign:'start' }}>Kaji</p>
+                <p style={{ marginLeft: "10px" , textAlign:'start' }}>Kenny</p>
                 <p style={{ marginLeft: "10px" , textAlign:'start' , marginTop:"-16px" , fontSize:"11px" , color:"#aaa" }}>Followed by suman yo</p>
               </div>
             </div>
@@ -114,7 +114,7 @@ export default function ProfileRightBar() {
             <div style={{ display: 'flex', alignItems: "center" }}>
               <img src={`${image7}`} className="Profileimage" alt="" />
               <div>
-                <p style={{ marginLeft: "10px" , textAlign:'start' }}>Madan bO</p>
+                <p style={{ marginLeft: "10px" , textAlign:'start' }}>Benson mark</p>
                 <p style={{ marginLeft: "10px" , textAlign:'start' , marginTop:"-16px" , fontSize:"11px" , color:"#aaa" }}>Followed by suman yo</p>
               </div>
             </div>
@@ -128,7 +128,7 @@ export default function ProfileRightBar() {
             <div style={{ display: 'flex', alignItems: "center" }}>
               <img src={`${image1}`} className="Profileimage" alt="" />
               <div>
-                <p style={{ marginLeft: "10px" , textAlign:'start' }}>Elon musk</p>
+                <p style={{ marginLeft: "10px" , textAlign:'start' }}>El-Hannah</p>
                 <p style={{ marginLeft: "10px" , textAlign:'start' , marginTop:"-16px" , fontSize:"11px" , color:"#aaa" }}>Followed by suman yo</p>
               </div>
             </div>
@@ -142,7 +142,7 @@ export default function ProfileRightBar() {
             <div style={{ display: 'flex', alignItems: "center" }}>
               <img src={`${image1}`} className="Profileimage" alt="" />
               <div>
-                <p style={{ marginLeft: "10px" , textAlign:'start' }}>Dan jok</p>
+                <p style={{ marginLeft: "10px" , textAlign:'start' }}>Nathan Kim</p>
                 <p style={{ marginLeft: "10px" , textAlign:'start' , marginTop:"-16px" , fontSize:"11px" , color:"#aaa" }}>Followed by suman yo</p>
               </div>
             </div>
